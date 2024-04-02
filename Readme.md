@@ -34,7 +34,7 @@ This repository covers a range of Azure Cloud Design Patterns, each located in i
 
 - [**CQRS**](/CloudDesignPatterns/CQRS/Readme.md): 
 The Command and Query Responsibility Segregation (CQRS) pattern in Azure separates read and write operations into distinct interfaces, improving scalability and performance by allowing more efficient read and write data models, and enabling the independent scaling of the read and write workloads. Unique features include the ability to handle high-performance applications by segregating the data modification and data query responsibilities, which can lead to optimized data storage, retrieval, and scalability in cloud environments.
-- [**FederatedIdentity**](/CloudDesignPatterns/FederatedIdentity/Readme.md: The Federated Identity pattern in Azure Cloud leverages a centralized identity provider to manage user authentication and authorization across multiple applications and services, offering unique features such as single sign-on (SSO) capabilities, streamlined identity management across different systems, and enhanced security by centralizing user credentials and access policies.
+- [**FederatedIdentity**](/CloudDesignPatterns/FederatedIdentity/Readme.md): The Federated Identity pattern in Azure Cloud leverages a centralized identity provider to manage user authentication and authorization across multiple applications and services, offering unique features such as single sign-on (SSO) capabilities, streamlined identity management across different systems, and enhanced security by centralizing user credentials and access policies.
 - **TBD**: TBD
 
 For more detailed information, refer to the README.md file within each design pattern's folder.
