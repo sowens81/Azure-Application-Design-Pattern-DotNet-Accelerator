@@ -41,4 +41,4 @@ The architecture diagram visualizes the interactions between these components wi
 
 
 This architecture not only enhances application performance by optimizing data access patterns but also provides a scalable and flexible framework that can adapt to changing business requirements and growing data volumes. By leveraging Azure services, developers can focus on delivering value and functionality, rather than managing infrastructure, making the Azure CQRS design pattern an ideal choice for modern, cloud-native applications.
-![Example Image](CQRS-Design-Pattern.drawio.png)
+![Example Image](CQRS.drawio.png)

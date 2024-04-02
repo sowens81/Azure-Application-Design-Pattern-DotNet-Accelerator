@@ -29,4 +29,4 @@ This summary provides a comprehensive overview of the Azure Federated Identity p
 ## Architecture
 # Technical Architecture
 The following diagram illustrates the technical architecture for implementing the Azure Federated Identity pattern, showcasing the interaction between Azure Active Directory and various Azure services to facilitate secure and seamless access management.
-![Example Image](Federated-Identity-Design-Pattern.drawio.png)
+![Example Image](FederatedIdentity.drawio.png)
