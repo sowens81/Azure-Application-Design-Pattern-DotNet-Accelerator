@@ -26,11 +26,19 @@ Implementing the CQRS pattern on Azure offers a pathway to building highly respo
 
 This summary offers a concise overview of the CQRS pattern on Azure, emphasizing its benefits for application development. It outlines the pattern's key concepts, integration points with Azure services, and the advantages it brings in terms of scalability, performance, security, and maintainability.
 
+# Architecture
+## Technical Architecture
+The technical architecture for implementing the Azure Command Query Responsibility Segregation (CQRS) design pattern is engineered to optimize the efficiency, responsiveness, and scalability of applications. This approach leverages Azure's cloud infrastructure and services to distinctly separate read and write operations, enabling applications to handle large volumes of data and transactions more effectively.
+
+## Key Components
+Azure API Management: Enabled route based API Policies based on HTTP Method, to send API calls the the relevant backend services based on read or write processes.
+Azure Functions: Serves as the serverless compute platform, enabling scalable and event-driven processing of commands and queries, ensuring that write and read operations are handled efficiently and independently.
+Azure Cosmos DB: Acts as the primary data store, optimized for fast writes through the command model and efficient reads through the query model, taking full advantage of its global distribution capabilities for low latency.
+Azure Event Hub: Provides a robust messaging infrastructure for decoupling application components, enabling more complex workflows and ensuring that the system remains responsive and scalable under varying loads.
+
+## Architecture Diagram
+The architecture diagram visualizes the interactions between these components within the Azure ecosystem to implement the CQRS pattern. It highlights how commands and queries flow through the system, from the initiation of actions by users or services, through processing by Azure Functions, to data storage and retrieval in Azure Cosmos DB. The diagram also illustrates the role of Azure Event Grid and Azure Service Bus in orchestrating and managing the communication and data flow, ensuring that the system's read and write operations are efficiently segregated and managed.
 
 
-
-
-## Architecture
-# Technical Architecture
-The following diagram provides the technical views for implementing the CQRS design pattern within Azure using Azure Functions and DotNet 8 Framework.
+This architecture not only enhances application performance by optimizing data access patterns but also provides a scalable and flexible framework that can adapt to changing business requirements and growing data volumes. By leveraging Azure services, developers can focus on delivering value and functionality, rather than managing infrastructure, making the Azure CQRS design pattern an ideal choice for modern, cloud-native applications.
 ![Example Image](CQRS-Design-Pattern.drawio.png)
