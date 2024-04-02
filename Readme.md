@@ -1,4 +1,3 @@
-Certainly! Here's a draft README.md for your repository. This template is structured to give a clear and concise introduction to your project, its structure, and how others can use it. Feel free to adjust it as per your repository's specific details and requirements.
 # .NET Accelerator for Azure Cloud Design Patterns
 
 Welcome to the .NET Accelerator for Azure Cloud Design Patterns repository. This project aims to provide a comprehensive guide and toolkit for implementing various Azure Cloud Design Patterns using .NET, Terraform, and Azure DevOps (ADO) pipelines. Each design pattern is encapsulated within its dedicated folder, containing the .NET code, Terraform Infrastructure as Code (IaC) scripts, and ADO pipeline configurations necessary for deployment.
